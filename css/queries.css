@@ -238,13 +238,10 @@
 
 /* 1048  */
 @media (max-width: 65.5em) {
-  .appie,
-  .header {
-    max-width: 120rem;
-  }
+
   .appie-text {
     line-height: 1.1;
-    padding: 1rem 3rem 1rem 1rem;
+    padding: 1rem 3rem 1rem 0;
   }
 
   .appie-text p:first-child,
@@ -954,7 +951,7 @@
     padding: 0.7rem 6.4rem 0.7rem 1rem;
   }
   .appie-section {
-    padding: 2rem 0rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
   }
   .appie,
   .review-grid,
@@ -1108,7 +1105,7 @@
   }
 
   .appie-section {
-    padding-top: 3.2rem;
+    padding-top: 3.2rem 2rem;
   }
   .appie-text p:first-child,
   .heading-1 {
@@ -1425,6 +1422,12 @@
   .need-text h2:first-child {
     font-size: 2rem;
   }
+
+  .appie {
+    grid-template-columns: 0.75fr;
+  }
+
+
   .appie-input {
     padding: 0.7rem 4.4rem 0.7rem 1rem;
   }
