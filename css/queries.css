@@ -431,7 +431,7 @@
 @media (max-width: 55em) {
   .appie-text {
     line-height: 1.1;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 0;
   }
   .grid {
     padding: 2.3rem 1.2rem;
